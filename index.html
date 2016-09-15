@@ -2,9 +2,41 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>GifTastic</title></title>
+	<title>GifTastic</title>
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Reset and Style sheets -->
+	<!--//<link rel="stylesheet" type="text/css" href="assets/style.css">-->
+	<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+    <script type="text/javascript"></script>
 </head>
+
 <body>
-	
+
+<div class="container">
+  <h1>Band Search</h1>
+
+  <!-- Movies will get dumped here -->
+ <div id="bandsView"
+
+  </div>
+
+  <form id="band-form">
+    <label for="band-input">Add a Band, Yo</label>
+    <input type="text" id="band-input"><br>
+    
+    <!-- Button triggers new movie to be added -->
+    <input id="addBand" type="submit" value="Add a Band Yo">
+  </form>
+
+ <!-- <button data-music="beatles">the beatles</button>
+    <button data-music="hendrix">hendrix</button>
+    <button data-music="stones">the stones</button>-->
+    
+    <div id="gifsAppearHere">
+    </div>
+
+<script src="app.js"></script>
+
 </body>
 </html>
